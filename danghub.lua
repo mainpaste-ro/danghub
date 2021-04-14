@@ -1,3 +1,4 @@
+if game.PlaceId == 155615604 then
 local danghub = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local uiconner = Instance.new("UICorner")
@@ -780,3 +781,4 @@ local function MENFTL_fake_script()
 	script.Parent.main.Selectable = true
 end
 coroutine.wrap(MENFTL_fake_script)()
+end
