@@ -781,4 +781,424 @@ local function MENFTL_fake_script()
 	script.Parent.main.Selectable = true
 end
 coroutine.wrap(MENFTL_fake_script)()
+elseif game.PlaceId == 286090429 then
+local danghub = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local uiconner = Instance.new("UICorner")
+local logo = Instance.new("TextLabel")
+local texthub = Instance.new("Frame")
+local uiconner_2 = Instance.new("UICorner")
+local hub = Instance.new("TextLabel")
+local githublogo = Instance.new("ImageLabel")
+local githublink = Instance.new("TextLabel")
+local aimbot = Instance.new("TextButton")
+local uiconner_3 = Instance.new("UICorner")
+local Credits = Instance.new("TextLabel")
+local aimbottxt = Instance.new("TextLabel")
+local TriggerBot = Instance.new("TextButton")
+local uiconner_4 = Instance.new("UICorner")
+local TriggerBottxt = Instance.new("TextLabel")
+local ChamsESPtxt = Instance.new("TextLabel")
+local ChamsESP = Instance.new("TextButton")
+local uiconner_5 = Instance.new("UICorner")
+local SilentAim = Instance.new("TextButton")
+local uiconner_6 = Instance.new("UICorner")
+local SilentAimtxt = Instance.new("TextLabel")
+danghub.Name = "danghub"
+danghub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+danghub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+main.Name = "main"
+main.Parent = danghub
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.00650312472, 0, 0.24570024, 0)
+main.Size = UDim2.new(0, 457, 0, 305)
+main.Draggable = true
+main.Active = true
+main.Selectable = true
+uiconner.CornerRadius = UDim.new(0, 9)
+uiconner.Name = "uiconner"
+uiconner.Parent = main
+logo.Name = "logo"
+logo.Parent = main
+logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+logo.BackgroundTransparency = 1.000
+logo.Position = UDim2.new(0.0597402602, 0, 0.0286102779, 0)
+logo.Size = UDim2.new(0, 65, 0, 28)
+logo.Font = Enum.Font.SourceSans
+logo.Text = "Dang"
+logo.TextColor3 = Color3.fromRGB(255, 255, 255)
+logo.TextScaled = true
+logo.TextSize = 14.000
+logo.TextWrapped = true
+texthub.Name = "texthub"
+texthub.Parent = logo
+texthub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+texthub.Position = UDim2.new(1, 0, 0.214285716, 0)
+texthub.Size = UDim2.new(0, 57, 0, 22)
+uiconner_2.CornerRadius = UDim.new(0, 9)
+uiconner_2.Name = "uiconner"
+uiconner_2.Parent = texthub
+hub.Name = "hub"
+hub.Parent = texthub
+hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hub.BackgroundTransparency = 1.000
+hub.Position = UDim2.new(0.16500479, 0, 0.0454545468, 0)
+hub.Size = UDim2.new(0, 37, 0, 19)
+hub.Font = Enum.Font.SourceSans
+hub.Text = "HUB"
+hub.TextColor3 = Color3.fromRGB(255, 255, 255)
+hub.TextScaled = true
+hub.TextSize = 14.000
+hub.TextWrapped = true
+githublogo.Name = "githublogo"
+githublogo.Parent = main
+githublogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+githublogo.BackgroundTransparency = 1.000
+githublogo.Position = UDim2.new(0.503508985, 0, 0.7978037, 0)
+githublogo.Size = UDim2.new(0, 45, 0, 42)
+githublogo.Image = "http://www.roblox.com/asset/?id=6660425218"
+githublink.Name = "githublink"
+githublink.Parent = main
+githublink.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+githublink.BackgroundTransparency = 1.000
+githublink.Position = UDim2.new(0.618340015, 0, 0.79538238, 0)
+githublink.Size = UDim2.new(0, 152, 0, 42)
+githublink.Font = Enum.Font.SourceSans
+githublink.Text = "github.com/mainpaste-ro"
+githublink.TextColor3 = Color3.fromRGB(255, 255, 255)
+githublink.TextScaled = true
+githublink.TextSize = 14.000
+githublink.TextWrapped = true
+aimbot.Name = "aimbot"
+aimbot.Parent = main
+aimbot.BackgroundColor3 = Color3.fromRGB(161, 22, 171)
+aimbot.BorderColor3 = Color3.fromRGB(181, 209, 134)
+aimbot.Position = UDim2.new(0.528624475, 0, 0.144739866, 0)
+aimbot.Size = UDim2.new(0, 48, 0, 34)
+aimbot.Font = Enum.Font.SourceSans
+aimbot.Text = "OFF"
+aimbot.TextColor3 = Color3.fromRGB(255, 255, 255)
+aimbot.TextSize = 20.000
+aimbot.TextWrapped = true
+uiconner_3.CornerRadius = UDim.new(0, 9)
+uiconner_3.Name = "uiconner"
+uiconner_3.Parent = aimbot
+Credits.Name = "Credits"
+Credits.Parent = main
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(0.0679493919, 0, 0.828670442, 0)
+Credits.Size = UDim2.new(0, 178, 0, 28)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "Made by  urmom565 On PasteBin"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+aimbottxt.Name = "aimbottxt"
+aimbottxt.Parent = main
+aimbottxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aimbottxt.BackgroundTransparency = 1.000
+aimbottxt.Position = UDim2.new(0.355145067, 0, 0.16546531, 0)
+aimbottxt.Size = UDim2.new(0, 65, 0, 28)
+aimbottxt.Font = Enum.Font.SourceSans
+aimbottxt.Text = "AimBot:"
+aimbottxt.TextColor3 = Color3.fromRGB(255, 255, 255)
+aimbottxt.TextScaled = true
+aimbottxt.TextSize = 14.000
+aimbottxt.TextWrapped = true
+TriggerBot.Name = "TriggerBot"
+TriggerBot.Parent = main
+TriggerBot.BackgroundColor3 = Color3.fromRGB(161, 22, 171)
+TriggerBot.BorderColor3 = Color3.fromRGB(181, 209, 134)
+TriggerBot.Position = UDim2.new(0.528624475, 0, 0.310962081, 0)
+TriggerBot.Size = UDim2.new(0, 48, 0, 34)
+TriggerBot.Font = Enum.Font.SourceSans
+TriggerBot.Text = "OFF"
+TriggerBot.TextColor3 = Color3.fromRGB(255, 255, 255)
+TriggerBot.TextSize = 20.000
+TriggerBot.TextWrapped = true
+uiconner_4.CornerRadius = UDim.new(0, 9)
+uiconner_4.Name = "uiconner"
+uiconner_4.Parent = TriggerBot
+TriggerBottxt.Name = "TriggerBottxt"
+TriggerBottxt.Parent = main
+TriggerBottxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TriggerBottxt.BackgroundTransparency = 1.000
+TriggerBottxt.Position = UDim2.new(0.302628666, 0, 0.330758035, 0)
+TriggerBottxt.Size = UDim2.new(0, 89, 0, 28)
+TriggerBottxt.Font = Enum.Font.SourceSans
+TriggerBottxt.Text = "TriggerBot:"
+TriggerBottxt.TextColor3 = Color3.fromRGB(255, 255, 255)
+TriggerBottxt.TextScaled = true
+TriggerBottxt.TextSize = 14.000
+TriggerBottxt.TextWrapped = true
+ChamsESPtxt.Name = "ChamsESPtxt"
+ChamsESPtxt.Parent = main
+ChamsESPtxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChamsESPtxt.BackgroundTransparency = 1.000
+ChamsESPtxt.Position = UDim2.new(0.302628666, 0, 0.493109047, 0)
+ChamsESPtxt.Size = UDim2.new(0, 89, 0, 28)
+ChamsESPtxt.Font = Enum.Font.SourceSans
+ChamsESPtxt.Text = "Chams ESP:"
+ChamsESPtxt.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChamsESPtxt.TextScaled = true
+ChamsESPtxt.TextSize = 14.000
+ChamsESPtxt.TextWrapped = true
+ChamsESP.Name = "ChamsESP"
+ChamsESP.Parent = main
+ChamsESP.BackgroundColor3 = Color3.fromRGB(161, 22, 171)
+ChamsESP.BorderColor3 = Color3.fromRGB(181, 209, 134)
+ChamsESP.Position = UDim2.new(0.528624475, 0, 0.473313063, 0)
+ChamsESP.Size = UDim2.new(0, 48, 0, 34)
+ChamsESP.Font = Enum.Font.SourceSans
+ChamsESP.Text = "OFF"
+ChamsESP.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChamsESP.TextSize = 20.000
+ChamsESP.TextWrapped = true
+uiconner_5.CornerRadius = UDim.new(0, 9)
+uiconner_5.Name = "uiconner"
+uiconner_5.Parent = ChamsESP
+SilentAim.Name = "SilentAim"
+SilentAim.Parent = main
+SilentAim.BackgroundColor3 = Color3.fromRGB(161, 22, 171)
+SilentAim.BorderColor3 = Color3.fromRGB(181, 209, 134)
+SilentAim.Position = UDim2.new(0.528624475, 0, 0.638734758, 0)
+SilentAim.Size = UDim2.new(0, 48, 0, 34)
+SilentAim.Font = Enum.Font.SourceSans
+SilentAim.Text = "OFF"
+SilentAim.TextColor3 = Color3.fromRGB(255, 255, 255)
+SilentAim.TextSize = 20.000
+SilentAim.TextWrapped = true
+uiconner_6.CornerRadius = UDim.new(0, 9)
+uiconner_6.Name = "uiconner"
+uiconner_6.Parent = SilentAim
+SilentAimtxt.Name = "SilentAimtxt"
+SilentAimtxt.Parent = main
+SilentAimtxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SilentAimtxt.BackgroundTransparency = 1.000
+SilentAimtxt.Position = UDim2.new(0.302628666, 0, 0.65525198, 0)
+SilentAimtxt.Size = UDim2.new(0, 89, 0, 28)
+SilentAimtxt.Font = Enum.Font.SourceSans
+SilentAimtxt.Text = "Silent Aim:"
+SilentAimtxt.TextColor3 = Color3.fromRGB(255, 255, 255)
+SilentAimtxt.TextScaled = true
+SilentAimtxt.TextSize = 14.000
+SilentAimtxt.TextWrapped = true
+local function PZZN_fake_script()
+	local script = Instance.new('LocalScript', texthub)
+	local r = {
+		Color3.fromRGB(254, 0, 0);
+		Color3.fromRGB(255, 127, 0);
+		Color3.fromRGB(255, 221, 1);
+		Color3.fromRGB(0, 200, 0);
+		Color3.fromRGB(0, 160, 199);
+		Color3.fromRGB(0, 55, 230);
+		Color3.fromRGB(129, 16, 210)}
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.BackgroundColor3 = r[1]
+	i = 1
+	while true do
+	local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+			BackgroundColor3 = r[i]})
+	tween:Play()
+	repeat wait() until tween.Completed
+	wait(0.1)
+	if i == #r then i = 1 else i = i + 1 end
+	end
 end
+coroutine.wrap(PZZN_fake_script)()
+local function HOBGNN_fake_script()
+	local script = Instance.new('LocalScript', aimbot)
+	_G.aimbot = false
+	local camera = game.Workspace.CurrentCamera
+	local localplayer = game:GetService("Players").LocalPlayer
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.aimbot == false then
+			_G.aimbot = true
+			script.Parent.Text = "ON"
+			function closestplayer()
+				local dist = math.huge
+				local target = nil
+				for i,v in pairs (game:GetService("Players"):GetPlayers()) do
+					if v ~= localplayer then
+						if v.Character and v.Character:FindFirstChild("Head") and v.TeamColor ~= localplayer.TeamColor and _G.aimbot and v.Character.Humanoid.Health > 0 then --- creating the checks
+							local magnitude = (v.Character.Head.Position - localplayer.Character.Head.Position).magnitude
+							if magnitude < dist then
+								dist = magnitude
+								target = v
+							end
+	
+						end
+					end
+				end
+				return target
+			end
+	
+		else
+			_G.aimbot = false
+			script.Parent.Text = "OFF"
+		end
+	end)
+	
+	local settings = {
+		keybind = Enum.UserInputType.MouseButton2
+	}
+	
+	local UIS = game:GetService("UserInputService")
+	local aiming = false --- this toggle will make it so we lock on to the person when we press our keybind
+	
+	UIS.InputBegan:Connect(function(inp)
+		if inp.UserInputType == settings.keybind then
+			aiming = true
+		end
+	end)
+	
+	UIS.InputEnded:Connect(function(inp)
+		if inp.UserInputType == settings.keybind then ---- when we stop pressing the keybind it would unlock off the player
+			aiming = false
+		end
+	end)
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if aiming then
+			camera.CFrame = CFrame.new(camera.CFrame.Position,closestplayer().Character.Head.Position) -- locks into the HEAD
+		end
+	end)
+	
+end
+coroutine.wrap(HOBGNN_fake_script)()
+local function CVDMCXX_fake_script() -- TriggerBot.LocalScript 
+	local script = Instance.new('LocalScript', TriggerBot)
+
+	_G.triggerbot = false
+	local player = game:GetService("Players").LocalPlayer
+	local mouse = player:GetMouse()
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.triggerbot then
+			_G.triggerbot = false
+			script.Parent.Text = "OFF"
+		else
+			_G.triggerbot = true
+			script.Parent.Text = "ON"
+			game:GetService("RunService").RenderStepped:Connect(function()
+				if mouse.Target.Parent:FindFirstChild("Humanoid") and _G.triggerbot and mouse.Target.Parent.Name ~= player.Name then
+					mouse1press() wait() mouse1release()
+				end
+			end)
+		end
+	end)
+end
+coroutine.wrap(CVDMCXX_fake_script)()
+local function ZRBXL_fake_script() -- ChamsESP.LocalScript 
+	local script = Instance.new('LocalScript', ChamsESP)
+
+	_G.chams = false
+	local Players = game:GetService("Players") -- variable to get the players in the game
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.chams == false then
+			_G.chams = true
+			script.Parent.Text = "ON"
+			--- Chams
+			function CreateGui(name,parent,face) -- function that creates the Chams
+				local SurfaceGui = Instance.new("SurfaceGui",parent) --- Creates a SurfaceGui in the game
+				SurfaceGui.Parent = parent
+				SurfaceGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+				SurfaceGui.Face = Enum.NormalId[face]
+				SurfaceGui.LightInfluence = 0
+				SurfaceGui.ResetOnSpawn = false
+				SurfaceGui.Name = name
+				SurfaceGui.AlwaysOnTop = true
+				local Frame = Instance.new("Frame",SurfaceGui)
+				Frame.BackgroundColor3 = Color3.fromRGB(85, 170, 255) -- colour for the surfacgui
+				Frame.Size = UDim2.new(1,0,1,0)
+			end
+			while wait(1) do
+				for i,v in pairs (Players:GetPlayers()) do --- gets all the players in the game and loops through them
+					if v ~= Players.LocalPlayer and v.Character ~= nil and v.Character:FindFirstChild("Head") and _G.chams and v.Character.Head:FindFirstChild("cham") == nil then --- Checks to check if the player is appropiate to make a cham
+						for i,v in pairs (v.Character:GetChildren()) do -- looping through every child in the character of the player
+							if v:IsA("MeshPart") or v.Name == "Head" then -- checking if the child is a body part
+								CreateGui("cham",v,"Back")
+								CreateGui("cham",v,"Front")
+								CreateGui("cham",v,"Top")
+								CreateGui("cham",v,"Bottom")
+								CreateGui("cham",v,"Right")
+								CreateGui("cham",v,"Left")
+							end
+						end
+	
+					end
+				end
+			end
+		else 
+			_G.chams = false
+			script.Parent.Text = "OFF"
+		end
+	end)
+end
+coroutine.wrap(ZRBXL_fake_script)()
+local function TJVD_fake_script() -- SilentAim.LocalScript 
+	local script = Instance.new('LocalScript', SilentAim)
+
+	_G.silentaim = false
+	script.Parent.MouseButton1Click:Connect(function()
+		if _G.silentaim == false then
+			_G.silentaim = true
+			script.Parent.Text = "ON"
+		else
+			_G.silentaim = false
+			script.Parent.Text = "OFF"
+		end
+	end)
+	
+	local players = game:GetService("Players")
+	local plr = players.LocalPlayer
+	local mouse = plr:GetMouse()
+	local camera = game.Workspace.CurrentCamera
+	local teamcheck = true
+	
+	local function ClosestPlayerToMouse()
+		local target = nil
+		local dist = math.huge
+		for i,v in pairs(players:GetPlayers()) do
+			if v.Name ~= plr.Name then
+				if v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild("HumanoidRootPart") and _G.silentaim and teamcheck and v.TeamColor ~= plr.TeamColor then
+					local screenpoint = camera:WorldToScreenPoint(v.Character.HumanoidRootPart.Position)
+					local check = (Vector2.new(mouse.X,mouse.Y)-Vector2.new(screenpoint.X,screenpoint.Y)).magnitude
+	
+					if check < dist then
+						target  = v
+						dist = check
+					end
+				end
+			end
+		end
+	
+		return target 
+	end
+	
+	local mt = getrawmetatable(game)
+	local namecall = mt.__namecall
+	setreadonly(mt,false)
+	
+	mt.__namecall = function(self,...)
+		local args = {...}
+		local method = getnamecallmethod()
+	
+		if tostring(self) == "HitPart" and method == "FireServer" then
+			print("so?")
+			args[1] = ClosestPlayerToMouse().Character.Head
+			args[2] = ClosestPlayerToMouse().Character.Head.Position
+			return self.FireServer(self, unpack(args))
+		end
+		return namecall(self,...)
+	end
+end
+coroutine.wrap(TJVD_fake_script)()
+else
+game.StarterGui:SetCore("SendNotification", {
+Title = "DangHub";
+Text = "Your Game Not Supported!\nGames Supported: Arsenal & Prison Life";
+Duration = "10";
+})
+end 
